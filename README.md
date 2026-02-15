@@ -23,16 +23,16 @@ El sistema permite generar contraseñas seguras a partir de los requisitos indic
 
 - Estructura del proyecto:
 
-	src/
-	├── cliente/
-	│	├── Cliente.java
-	│ 	└── MainCliente.java
-	│
-	└── servidor/
-		├── MainServidor.java
-		├── RequisitosPass.java
-		├── ServicioPass.java
-		└── Servidor.java 
+	- src/
+		- cliente/
+  			- cliente.java
+			- MainCliente.java
+	
+		- servidor/
+			- MainServidor.java
+			- RequisitosPass.java
+			- ServicioPass.java
+			- Servidor.java 
 
 - Cómo ejecutar:
 
@@ -49,5 +49,6 @@ El sistema permite generar contraseñas seguras a partir de los requisitos indic
 	- SecureRandom para generación segura de contraseñas
 
 - Objetivo del proyecto
+
 
 	Practicar la arquitectura cliente-servidor, la comunicación por red y la organización del código separando responsabilidades entre clases.
